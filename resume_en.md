@@ -47,7 +47,7 @@ Developing new features on the business specific software to manage product stoc
 
 * Methodology: Agile Scrum, 4/5 dev
 
-Feb. 15 - Aug. 16
+Feb. - Aug. 16
 :   **Golang Development on [Træfik](https://traefik.io/)**; [Containous](https://containo.us/) - Lyon (France)
 
 6-months end-of-courses internship on [Træfik](https://traefik.io/). Developing 2 packages which provide configuration interfaces for Golang programs:
