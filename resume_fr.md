@@ -3,16 +3,23 @@ Martin Piegay
 
 ----
 
->  Je suis un jeune ingénieur logiciel travaillant à [Zenika](https://www.zenika.com/) Lyon (FR).
->  Je code en Java, JavaScript et Golang en utilisant différents frameworks comme Spring ou ReactJS ...
+>  Je suis ingénieur logiciel travaillant à [Zenika](https://www.zenika.com/) Lyon (FR) depuis 2016.
+>  Je code principalement en Java en utilisant différents frameworks comme Spring Boot ...\
 >  J'accorde de l'importance à la qualité du code et je fais de mon mieux pour l'améliorer.\
->  Je m'intéresse à l'open-source, j'ai récemment contribué au nouveau reverse proxy [Træfik](https://traefik.io/).
+>  Je m'intéresse aussi à l'univer DevOps comme le CI/CD, Ansible, Kubernetes et Docker.
 
 ----
 
 Experience
 ----------
-Juin 17 - Aujourd'hui
+Novembre 18 - Maintenant
+:   **Développement Java Backend chez [Partecis](https://group.bnpparibas/communique-de-presse/partecis-bnp-paribas-natixis-renouvellent-partenariat-monetique-duree-12-ans)**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Développement Java de programme d'acquisition des paiement par carte bancaires, s'interfaçant entre les terminaux de paiements (TPE) et les SI des établisements bancaires par des protocoles metiers.
+
+* Tech: Java 8, Spring Boot, Apache Camel, Netty, SQL/Oracle, Prometheus, Apache Kafka, Maven, Git, Jenkins, Bitbucket, ...
+
+Juin 17 - Novembre 18
 :   **Développement logiciel Backend chez [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Développement d'un logiciel de supervision et téléparamétrage de 35 millions de compteurs électriques installés chez des particuliers.

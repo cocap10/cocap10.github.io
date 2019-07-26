@@ -2,9 +2,9 @@ local utilitydata = { }
 
 utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
- ["file"]="tex.jobname",
+ ["file"]="resume_en",
  ["format"]="cont-en",
- ["stamp"]="2015.05.18 12:26",
+ ["stamp"]="2018.04.04 00:51",
  ["version"]=1.3,
 }
 
@@ -18,7 +18,24 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
- ["randomseed"]=0.75852859008989,
+ ["macros"]={},
+ ["randomseed"]=0.78270804033741,
+ ["sectionblockorder"]={},
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={},
+ ["name"]="",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -26,35 +43,38 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 2, 0 },
- },
- ["itemgroup:itemize:10"]={
-  { 2, 0 },
- },
- ["itemgroup:itemize:11"]={
   { 1, 0 },
  },
+ ["itemgroup:itemize:10"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:11"]={
+  { 2, 0 },
+ },
  ["itemgroup:itemize:12"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:13"]={
   { 2, 0 },
   { 2, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 5, 0 },
+  { 2, 0 },
  },
  ["itemgroup:itemize:3"]={
-  { 3, 0 },
+  { 5, 0 },
  },
  ["itemgroup:itemize:4"]={
-  { 2, 0 },
- },
- ["itemgroup:itemize:5"]={
   { 3, 0 },
  },
- ["itemgroup:itemize:6"]={
+ ["itemgroup:itemize:5"]={
   { 2, 0 },
  },
+ ["itemgroup:itemize:6"]={
+  { 3, 0 },
+ },
  ["itemgroup:itemize:7"]={
-  { 1, 0 },
+  { 2, 0 },
  },
  ["itemgroup:itemize:8"]={
   { 1, 0 },
@@ -74,21 +94,6 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
-}
-
-if not utilitydata.job then utilitydata.job = { } end
-if not utilitydata.job.structure then utilitydata.job.structure = { } end
-
-utilitydata.job.structure.collected={
- ["branches"]={},
- ["name"]="resume_en",
- ["type"]="text",
-}
-
-if not utilitydata.job then utilitydata.job = { } end
-if not utilitydata.job.positions then utilitydata.job.positions = { } end
-
-utilitydata.job.positions.collected={
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -126,7 +131,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 5, 3, 2, 3, 2, 1, 1, 1, 2, 1, 2 },
+  { 0, 1, 2, 5, 3, 2, 3, 2, 1, 1, 1, 2, 1, 2 },
   { 0, 2, 0, 2 },
  },
  ["linenote"]={
@@ -139,7 +144,7 @@ utilitydata.structures.counters.collected={
   { 3 },
  },
  ["subpage"]={
-  { 0 },
+  { 1 },
  },
  ["table"]={
   { 0 },
@@ -192,7 +197,7 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="June 17 - Today",
+   ["title"]="November 18 - Now",
   },
  },
  {
@@ -204,7 +209,7 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="Dec. 16 - June 17",
+   ["title"]="June 17 - November 18",
   },
  },
  {
@@ -216,7 +221,8 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="Sept. 16 - Dec. 17",
+   ["bookmark"]="Dec. 16 - June 17",
+   ["title"]="Dec.~16 - June 17",
   },
  },
  {
@@ -228,7 +234,8 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="Feb. - Aug. 16",
+   ["bookmark"]="Sept. 16 - Dec. 17",
+   ["title"]="Sept.~16 - Dec.~17",
   },
  },
  {
@@ -236,6 +243,19 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=7,
    ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["bookmark"]="Feb. - Aug. 16",
+   ["title"]="Feb. - Aug.~16",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=8,
+   ["order"]=6,
    ["realpage"]=2,
    ["section"]=2,
   },
@@ -248,7 +268,7 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=9,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=8,
+   ["internal"]=9,
    ["realpage"]=2,
    ["reference"]="education",
    ["section"]=3,
@@ -261,8 +281,8 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=9,
-   ["order"]=6,
+   ["internal"]=10,
+   ["order"]=7,
    ["realpage"]=2,
    ["section"]=3,
   },
@@ -273,8 +293,8 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=10,
-   ["order"]=7,
+   ["internal"]=11,
+   ["order"]=8,
    ["realpage"]=2,
    ["section"]=3,
   },
@@ -285,8 +305,8 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=11,
-   ["order"]=8,
+   ["internal"]=12,
+   ["order"]=9,
    ["realpage"]=2,
    ["section"]=3,
   },
@@ -299,7 +319,7 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=11,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=12,
+   ["internal"]=13,
    ["realpage"]=2,
    ["reference"]="skills",
    ["section"]=4,
@@ -312,25 +332,13 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=13,
-   ["order"]=9,
-   ["realpage"]=2,
-   ["section"]=4,
-  },
-  ["titledata"]={
-   ["title"]="Programming Languages",
-  },
- },
- {
-  ["metadata"]=7,
-  ["references"]={
    ["internal"]=14,
    ["order"]=10,
    ["realpage"]=2,
    ["section"]=4,
   },
   ["titledata"]={
-   ["title"]="Backend Frameworks",
+   ["title"]="Programming Languages",
   },
  },
  {
@@ -342,7 +350,7 @@ utilitydata.structures.lists.collected={
    ["section"]=4,
   },
   ["titledata"]={
-   ["title"]="Frontend Frameworks",
+   ["title"]="Backend Frameworks",
   },
  },
  {
@@ -354,7 +362,7 @@ utilitydata.structures.lists.collected={
    ["section"]=4,
   },
   ["titledata"]={
-   ["title"]="DevOps and tools",
+   ["title"]="Frontend Frameworks",
   },
  },
  {
@@ -362,7 +370,19 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=17,
    ["order"]=13,
-   ["realpage"]=2,
+   ["realpage"]=3,
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="DevOps and tools",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=18,
+   ["order"]=14,
+   ["realpage"]=3,
    ["section"]=4,
   },
   ["titledata"]={
@@ -374,7 +394,7 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=13,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=18,
+   ["internal"]=19,
    ["realpage"]=3,
    ["reference"]="others",
    ["section"]=5,
@@ -424,8 +444,8 @@ if not utilitydata.structures.references then utilitydata.structures.references 
 
 utilitydata.structures.references.referred={
  { 1, 1 },
- { 2, 12 },
- { 3, 16 },
+ { 2, 8 },
+ { 3, 17 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -467,6 +487,12 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
 
 utilitydata.job.fileobjreferences.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.embedded then utilitydata.job.embedded = { } end
+
+utilitydata.job.embedded.collected={
 }
 
 utilitydata.job.packed={
@@ -562,6 +588,10 @@ utilitydata.job.packed={
   ["processors"]=true,
   ["sectiondata"]=true,
   ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
  },
  ["version"]=1.02,
 }

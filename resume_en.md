@@ -3,16 +3,23 @@ Martin Piegay
 
 ----
 
->  I am a young software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR).
->  I code in Java, JavaScript and Golang using several frameworks like Spring or ReactJS ...
->  I feel concerned about quality of code and I do my best to improve it.\
->  I believe in open-source, I recently contributed to the new reverse proxy [Træfik](https://traefik.io/).
+>  I am a software engineer working in [Zenika](https://www.zenika.com/) Lyon (FR) since 2016.
+>  I code mainly in Java using several frameworks like Spring Boot ...
+>  I feel concerned about quality of code and I do my best to improve it.
+>  I recently getting interest about DevOps techno like CI/CD, Ansible, Kubernetes & Docker.
 
 ----
 
 Experience
 ----------
-June 17 - Today
+November 18 - Now
+:   **Java Backend Development at [Partecis](https://group.bnpparibas/communique-de-presse/partecis-bnp-paribas-natixis-renouvellent-partenariat-monetique-duree-12-ans)**; [Zenika](https://www.zenika.com/) Lyon (FR)
+
+Developing Java programs for payment aquisition from credit cards. That interfaces with payment terminals and bank's information systems using businnes protocols.
+
+* Tech: Java 8, Spring Boot, Apache Camel, Netty, SQL/Oracle, Prometheus, Apache Kafka, Maven, Git, Jenkins, Bitbucket, ...
+
+June 17 - November 18
 :   **Backend Software Development on Linkysup at [Enedis](http://www.enedis.fr/compteur-communicant)**; [Zenika](https://www.zenika.com/) Lyon (FR)
 
 Developing a software for monitoring and remote controlling 35 millions of electricity meters installed at private individuals.
